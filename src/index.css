@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap");
+body {
+  background-color: white;
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+.navbar.scrolled {
+  background-color: rgb(255, 255, 255);
+}
