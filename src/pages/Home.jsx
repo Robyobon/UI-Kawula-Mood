@@ -1,5 +1,5 @@
 import BannerSlider from "../components/Banner";
-import Category from "../components/Category";
+import Category from "../components/category";
 import CardProduct from "../components/CardProduct";
 import Magazine from "../components/Magazine";
 import Star from "../assets/star.png";
