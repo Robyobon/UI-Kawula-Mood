@@ -8,7 +8,7 @@ import Product2 from "../assets/pr2.png";
 import Product3 from "../assets/pr3.png";
 import Product4 from "../assets/pr4.png";
 import Product5 from "../assets/pr5.png";
-import Product6 from "../assets/pr6.png";
+import Product6 from "../assets/product6.png";
 import Magazine1 from "../assets/n-1.png";
 
 import { Link } from "react-router-dom"
