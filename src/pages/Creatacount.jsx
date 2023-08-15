@@ -47,7 +47,7 @@ const Creatacount = () => {
             />
           </div>
           {/* Login button */}
-        <Link to="/login"><button className="w-[360px] bg-black mt-[46px] mx-auto items-center justify-center flex">
+        <Link to="/login"><button className="w-[360px] smartphone:w-[200px] bg-black mt-[46px] mx-auto items-center justify-center flex">
     <p className="text-white font-normal text-[24px] text-center">
       Sign Up
     </p>

@@ -29,7 +29,7 @@ const Login = () => {
             />
           </div>
           {/* Login button */}
-          <button className="w-[360px] bg-black mt-[46px] mx-auto items-center justify-center flex">
+          <button className="w-[360px] bg-black mt-[46px] mx-auto items-center justify-center flex smartphone:w-[200px]">
     <p className="text-white font-normal text-[24px] text-center">
       Sign In
     </p>

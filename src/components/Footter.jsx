@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="mb-2">FAQ</p>
             <p className="mb-2">Return Policy</p>
           </div>
-          <div className="ml-20 smartphone:ml-2 tablet:ml-2">
+          <div className="ml-20 smartphone:ml-4 tablet:ml-2">
             <p className="mb-2">Terms & Conditions</p>
             <p className="mb-2">Term of Service</p>
             <p className="mb-2">Refund Policy</p>
@@ -28,8 +28,8 @@ const Footer = () => {
           </div>
        
         <div className="text-center">
-          <p className="text-right">© 2023 ,KawulaMood</p>
-          <img src={Fotter1} alt="logo" className="absolute right-[70px] smartphone:w-32 smartphone:right-2 tablet:w-40" />
+          <p className="smartphone:text-left text-right smartphone:ml-4 ">© 2023 ,KawulaMood</p>
+          <img src={Fotter1} alt="logo" className="absolute right-[70px] smartphone:w-24 smartphone:right-4 tablet:w-40" />
         </div>
       </div>
     </footer>

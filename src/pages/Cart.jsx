@@ -12,7 +12,7 @@ function Cart() {
         <div>
             <img src={foto} alt="foto" className="smartphone:w-[80px] smartphone:h-[82px] smartphone:left-[60px] w-[150px] h-[152px] absolute top-[175px] left-40" />
         </div>
-        <div className=" smartphone:text-xs left-[330px] absolute top-[200px] smartphone:left-[160px] ">
+        <div className=" smartphone:text-xs left-[330px] absolute top-[200px] smartphone:left-[160px] smartphone:-my-4">
             <p>JGAGAD SERIES - GREY</p>
             <p className="mt-4">M</p>
         </div>
@@ -20,11 +20,11 @@ function Cart() {
     <form action="">
         <input 
         type="text"
-        className="w-[80px] bg-[#D9D9D9] p-2 border smartphone:w-[30px] tablet:w-[60px]"
+        className="w-[80px] bg-[#D9D9D9] p-2 border smartphone:w-[30px] tablet:w-[60px] smartphone:my-4"
         placeholder="1" />
     </form>
     </div>
-    <div className="right-[100px] absolute top-[200px] smartphone:text-xs smartphone:right-[40px] tablet:right-[100px] ">
+    <div className="right-[100px] absolute top-[200px] smartphone:text-xs smartphone:right-[40px] tablet:right-[100px] smartphone:my-4 ">
             <p>RP 125.000</p>
             <p className="text-right mt-4">Remove</p>
         </div>

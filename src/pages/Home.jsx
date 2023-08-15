@@ -65,7 +65,7 @@ function Home() {
   ];
 
   return (
-    <section className="home">
+    <section>
       <div>
         <BannerSlider />
       </div>
