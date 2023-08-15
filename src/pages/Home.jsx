@@ -1,4 +1,5 @@
 import BannerSlider from "../components/Banner";
+import Category from "../components/Category";
 import CardProduct from "../components/CardProduct";
 import Magazine from "../components/Magazine";
 import Star from "../assets/star.png";
@@ -9,7 +10,7 @@ import Product4 from "../assets/pr4.png";
 import Product5 from "../assets/pr5.png";
 import Product6 from "../assets/pr6.png";
 import Magazine1 from "../assets/n-1.png";
-import Category from "../components/Category";
+
 import { Link } from "react-router-dom"
 
 function Home() {
