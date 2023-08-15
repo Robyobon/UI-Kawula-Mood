@@ -1,5 +1,5 @@
 import BannerSlider from "../components/Banner";
-import Category from "../components/category";
+import Categorypage from "../components/Category";
 import CardProduct from "../components/CardProduct";
 import Magazine from "../components/Magazine";
 import Star from "../assets/star.png";
@@ -95,7 +95,7 @@ function Home() {
         </div>
      </div>
      <div className="mt-[134px]">
-      <Category />
+      <Categorypage />
      </div>
     </div>
     </section>

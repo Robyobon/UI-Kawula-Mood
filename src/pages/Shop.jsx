@@ -12,7 +12,7 @@ import Product9 from "../assets/Product9.png";
 import Product10 from "../assets/Product10.png";
 import Product11 from "../assets/Product11.png";
 import Product12 from "../assets/Product12.png";
-import Category from "../components/category";
+import Categorypage from "../components/Category";
 import { Link } from 'react-router-dom';
 
 
@@ -118,7 +118,7 @@ function Shop() {
       <p className="text-[#D9D9D9]">5</p>
     </div>
     <div className="mt-[98px]">
-        <Category />
+        <Categorypage />
     </div>
     <div>
 
