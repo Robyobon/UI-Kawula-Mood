@@ -12,10 +12,10 @@ function ProductDetail() {
       <div className="grid grid-cols-2 smartphone:grid-cols-1 smartphone:py-20 tablet:grid-cols-1">
         <div>
           <img src={foto1} alt="" />
-          <div className="flex gap-[70px] mt-2 smartphone:gap-[10px]">
-            <img src={foto2} alt="" />
-            <img src={foto3} alt="" />
-            <img src={foto4} alt="" />
+          <div className="flex gap-[70px] mt-2 smartphone:gap-[6px] w-[88px]">
+            <img src={foto2} alt=""  />
+            <img src={foto3} alt=""  />
+            <img src={foto4} alt=""  />
           </div>
         </div>
 
@@ -24,7 +24,7 @@ function ProductDetail() {
         <p className="text-center mt-[40px]">125.000</p>
         <div className="border-b-2 border-black mt-[30px]"></div>
         <p className="mt-[40px] text-2xl font-normal">size</p>
-        <div className="flex gap-28 mt-[66px] smartphone:gap-20">
+        <div className="flex gap-28 mt-[66px] smartphone:gap-10">
           <div className="border-2 border-solid border-black">
             <p className="mx-2 ">
               S</p></div>
@@ -44,7 +44,7 @@ function ProductDetail() {
         className="w-[80px] bg-[#D9D9D9] p-2 border smartphone:w-[30px] tablet:w-[60px]"
         placeholder="1" />
     </form>
-   <Link to="/cart"><button className="w-[353px] bg-black mx-auto">
+   <Link to="/cart"><button className="w-[353px] bg-black mx-auto smartphone:w-48">
     <p className="text-white font-normal text-[24px] text-center">
     ADD TO CHART
     </p>
@@ -56,7 +56,7 @@ function ProductDetail() {
  </div>
         </div>
         <div>
- <button className=" w-[507px] border-2 border-black mx-auto mt-[72px] smartphone:w-[400px] smartphone:mt-[40px] ">
+ <button className=" w-[507px] border-2 border-black mx-auto mt-[72px] smartphone:mt-[40px] smartphone:w-72 ">
     <p className="text-black font-normal text-[24px] text-center">
     BUY NOW
     </p>
